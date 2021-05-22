@@ -13,6 +13,7 @@
 		9A444951264170A6008DAC51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A444950264170A6008DAC51 /* Preview Assets.xcassets */; };
 		9A44495C264170A6008DAC51 /* SwiftUIBulleyeV1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44495B264170A6008DAC51 /* SwiftUIBulleyeV1Tests.swift */; };
 		9A444967264170A6008DAC51 /* SwiftUIBulleyeV1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A444966264170A6008DAC51 /* SwiftUIBulleyeV1UITests.swift */; };
+		9ABD5C4826592554003E82D8 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD5C4726592554003E82D8 /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9A444962264170A6008DAC51 /* SwiftUIBulleyeV1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBulleyeV1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A444966264170A6008DAC51 /* SwiftUIBulleyeV1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBulleyeV1UITests.swift; sourceTree = "<group>"; };
 		9A444968264170A6008DAC51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABD5C4726592554003E82D8 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		9A44493D264170A3008DAC51 = {
 			isa = PBXGroup;
 			children = (
+				9ABD5C4726592554003E82D8 /* AboutView.swift */,
 				9A444948264170A3008DAC51 /* SwiftUIBulleyeV1 */,
 				9A44495A264170A6008DAC51 /* SwiftUIBulleyeV1Tests */,
 				9A444965264170A6008DAC51 /* SwiftUIBulleyeV1UITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A44494C264170A3008DAC51 /* ContentView.swift in Sources */,
+				9ABD5C4826592554003E82D8 /* AboutView.swift in Sources */,
 				9A44494A264170A3008DAC51 /* SwiftUIBulleyeV1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
